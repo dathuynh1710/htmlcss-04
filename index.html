@@ -96,17 +96,165 @@
 
         <!-- Styles CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/assets/css/responsive.css" />
     </head>
     <body>
-        <h1>Project 04</h1>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
-            quia cum deleniti voluptates praesentium tenetur eius sequi fuga.
-            Iure cupiditate obcaecati fugiat temporibus rerum minima doloribus
-            nam. Totam, corrupti voluptas! Eius, et labore ipsa doloribus ad at?
-            Facilis eos voluptatibus illum sapiente veritatis dolorem molestias
-            ab suscipit quisquam, eius iste, repellat adipisci amet unde? Ullam
-            quam blanditiis necessitatibus cum in!
-        </p>
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <!-- Logo -->
+                    <a href="#!">
+                        <img src="" alt="" />
+                        <span class="logo__text">
+                            <img src="./assets/img/Logo.svg" alt="Lucy" />
+                        </span>
+                    </a>
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="#!">Home</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="#!">About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="#!"
+                                    >Services & Rates</a
+                                >
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="#!">Review</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link" href="#!"
+                                    >Contacts us</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Action -->
+                    <div class="header-action">
+                        <a href="#!" class="btn header-action__signup"
+                            >Sign up</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <section class="container">
+                <div class="hero__inner">
+                    <!-- Hero media -->
+                    <div class="hero__media">
+                        <figure class="hero__images">
+                            <img
+                                src="./assets/img/hero-01.png"
+                                class="hero__img1"
+                                alt=""
+                            />
+
+                            <img
+                                src="./assets/img/decor-01.svg"
+                                alt=""
+                                class="hero__decor hero__decor-left"
+                            />
+                            <img
+                                src="./assets/img/decor-02.svg"
+                                alt=""
+                                class="hero__decor hero__decor-right"
+                            />
+                        </figure>
+
+                        <!-- Pic 2 -->
+                        <figure class="hero__images hero__images-small">
+                            <img
+                                src="./assets/img/hero-02.png"
+                                class="hero__img1"
+                                alt=""
+                            />
+                        </figure>
+
+                        <div class="hero__list">
+                            <!-- Hero list item 1 -->
+                            <div class="hero-list__item">
+                                <img
+                                    src="./assets/img/hero-03.png"
+                                    alt=""
+                                    class="hero-list__item-thumb"
+                                />
+                                <div class="hero-list__item-info">
+                                    <p class="hero-list__item-title">
+                                        Pet Health
+                                    </p>
+                                    <div class="hero-list__item-skeleton"></div>
+                                    <div
+                                        class="hero-list__item-skeleton"
+                                        style="--width: 39px"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="hero-list__item-separate"></div>
+                            <!-- Hero list item 2 -->
+                            <div class="hero-list__item">
+                                <img
+                                    src="./assets/img/hero-04.png"
+                                    alt=""
+                                    class="hero-list__item-thumb hero-list__item-bg"
+                                />
+                                <div class="hero-list__item-info">
+                                    <p class="hero-list__item-title">
+                                        Pet care
+                                    </p>
+                                    <div class="hero-list__item-skeleton"></div>
+                                    <div
+                                        class="hero-list__item-skeleton"
+                                        style="--width: 39px"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero content -->
+                    <section class="hero__content">
+                        <h1 class="hero__heading">
+                            Established & Trusted Pet Care Service
+                        </h1>
+                        <p class="hero__desc">
+                            Discover a wide variety of Pawsitive services to
+                            choose from, including daycare, private walks,
+                            office duty and spa.
+                        </p>
+                        <div class="hero__row">
+                            <a href="#!" class="btn btn--primary hero__cta-btn">
+                                Book a Meet
+                                <span class="btn__icon">
+                                    <svg
+                                        width="5"
+                                        height="6"
+                                        viewBox="0 0 5 6"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+                                            stroke="#FD5056"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#!" class="hero__cta-link">
+                                Schedule a Call
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </section>
     </body>
 </html>
